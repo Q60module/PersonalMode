@@ -14,7 +14,7 @@ Parts
 - Plug/receptacle for the main box
     - 1x [GT150 Receptacle Kit](https://www.bmotorsports.com/shop/product_info.php/products_id/5808)
     - 1x [GT150 Plug Kit](https://www.bmotorsports.com/shop/product_info.php/products_id/5806)
-- [Very small screws](https://www.amazon.com/dp/B07ZH9GJWP?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+- [Very small screws](https://www.amazon.com/dp/B07ZH9GJWP)
 - Arduino
     - 1x [Seeed XIAO SAMD21 pre-soldered](https://www.seeedstudio.com/Seeeduino-XIAO-Pre-Soldered-p-4747.html)
     - 1x [Seeed Studio Gove Base for XIAO](https://www.seeedstudio.com/Grove-Shield-for-Seeeduino-XIAO-p-4621.html)
