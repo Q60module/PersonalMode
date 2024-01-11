@@ -51,7 +51,7 @@ The mode switch works by providing continuity between specific wires when you pu
 6. Drive mode select switch forwards - Sky Blue
 7. Power - Red
 8. Ground - Black
-<Insert image of wire positions>
+![Diagram of TH08 connector](https://github.com/Q60module/PersonalMode/blob/images/M35.JPG)
 ### 
 
 ## Power
