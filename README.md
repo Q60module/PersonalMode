@@ -56,6 +56,7 @@ The mode switch works by providing continuity between specific wires when you pu
 
 ### Create harness
 Create a harness that fits between the car wiring harness and the switch. Use the TH08FW-NH, TH08MW-NH, associated pins, and the 22 guage wire to connect each pin on the FW with the associated pin on the MW. Pins 1 (black) and 6 (Sky blue) need an additional wire connected to them.
+
 Watch both of these videos:
 1. <a href="https://www.youtube.com/watch?v=euZR3xzL7QE">How to assemble TH08FW-NH</a>
 1. <a href="https://www.youtube.com/watch?v=rjbkZIhDN3w">How to connect multiple wires</a>
