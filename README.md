@@ -52,8 +52,7 @@ The mode switch works by providing continuity between specific wires when you pu
 > There are three blank pins in this connector.
 
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/M35.JPG" alt="Diagram of the TH08 connector" width="150" />
-
-<img src="https://github.com/Q60module/PersonalMode/blob/main/images/M35-in-car.JPG" alt="M35 connector in the car" width="150" />
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/M35-in-car.jpg" alt="M35 connector in the car" width="150" />
 
 ### Create harness
 Create a harness that fits between the car wiring harness and the switch. Use the TH08FW-NH, TH08MW-NH, associated pins, and the 22 guage wire to connect each pin on the FW with the associated pin on the MW. Pins 1 (black) and 6 (Sky blue) need an additional wire connected to them.
