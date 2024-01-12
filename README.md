@@ -45,12 +45,11 @@ The below picture shows the completed wiring harness. It has three main parts:
 The mode switch works by providing continuity between specific wires when you push the switch forward or backwards. When pushed forwards, the switch connects wires 1 and 3. For backwards, it connects wires 1 and 2. The below image identifies the pins in the wiring harness side. The pins/wires and their colors (colors may vary) are:
 1. Drive mode select switch ground - Black
 2. Drive mode select swich backwards - White/Black
- blank
- blank
- blank
 3. Drive mode select switch forwards - Sky Blue
 4. Power - Red
 5. Ground - Black
+> [!NOTE]
+> There are three blank pins in this connector.
 
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/M35.JPG" alt="Diagram of the TH08 connector" width="150" />
 
