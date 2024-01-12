@@ -52,6 +52,7 @@ The mode switch works by providing continuity between specific wires when you pu
 > There are three blank pins in this connector.
 
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/M35.JPG" alt="Diagram of the TH08 connector" width="150" />
+
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/M35-in-car.JPG" alt="M35 connector in the car" width="150" />
 
 ### Create harness
