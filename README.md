@@ -5,7 +5,7 @@ This should work for model years 2017-2022. This should also work for similar Q5
 This uses a small Arduino chip and a relay to simulate pushing the "Change Mode" button several times. Great care is taken to make a plug and play solution. There is no need to cut any wires, and it can be completely removed, returning the car to stock.
 
 ## Finished Product
-<insert photo here>
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/Complete.jpg" alt="Complete module and wiring harness" width="300" />
 
 Parts
 - 3D printed box
@@ -38,7 +38,7 @@ The below picture shows the completed wiring harness. It has three main parts:
 1. A harness between the car wiring harness and the mode switch.
 2. A harness between the car wrining harness and the Accessory Power Socket (cigarette lighter)
 3. A rocker switch to enable/disable operation - allows easily turning off the unit when taking the car in for service.
-<Insert picture of completed wiring harness>
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/Harness.jpg" alt="Complete wiring harness" width="300" />
 
 ## Between switch and wiring harness
 ### Introduction
