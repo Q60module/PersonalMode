@@ -96,6 +96,18 @@ Assemble the connector such that the newly created harness will connect at one e
 ### Introduction
 The Arduino chip needs power to operate. This gets that power from the nearby accessory power socket in the center console under the arm rest. Similar to the TH08 connectors above, this creates a harness that plugs in between the car harness and the accessory power socket. It provides power while allowing the accessory power outlet to continue working as normal.
 
+### Create Harness
+Assemble the connector kit, Accessory Power Socket, and lighter plug with leads to provide power.
+1. Assemble the 24008-9DK9A Connector Kit. It comes with the connector and three wires. Only use the two wires that have larger diameter - the smaller wire is not needed. Insert the wires into their places in the connector, and snap it shut.
+> [!TIP]
+> The connector has spots for three wires - the center position is positive.
+1. From the 22 guage wire stock, cut off 5 or so inches of red and black wire. The exact lenght of the wire doesn't matter, but they should be the same length.
+2. Strip one end of the red wire and <a href="https://www.youtube.com/watch?v=rjbkZIhDN3w">join it with the positive wire from the 24008-9DK9A and the red wire from the lighter plug with leads</a>. Be sure to use heat shrink tubing.
+3. Strip one end of the black wire and join it with the negative wire from the 24008-9DK9A and the black wire from the lighter plug with leads. Be sure to use heat shrink tubing.
+4. Use zip ties to stabilize the wires, then wrap with tape.
+5. Plug the lighter plug into the accessory socket.
+The below picture shows tbe completed power harness.
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/power.jpg" alt="Complete power wiring" width="225" />
 
 ## All together
 
