@@ -50,6 +50,9 @@ The mode switch works by providing continuity between specific wires when you pu
 5. Ground - Black
 > [!NOTE]
 > There are three blank pins in this connector.
+
+> [!WARNING]
+> The TH08 plugs require 22 guage wiring - 20 guage is too big and will not fit.
 <table>
     <tr>
         <td><img src="https://github.com/Q60module/PersonalMode/blob/main/images/M35.JPG" alt="Diagram of the TH08 connector" width="225" /></td>
