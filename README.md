@@ -33,6 +33,12 @@ This uses a small Arduino chip and a relay to simulate pushing the "Change Mode"
 - [Accessory Power Socket](https://www.ebay.com/itm/374948881752)
 - [Lighter Plug with leads](https://www.amazon.com/dp/B0963QJLRG)
 
+## Tools
+- A Windows or Apple computer to program the Arduino (not a phone or tablet)
+- Soldering Iron
+- Protective eyewear
+- Pliers
+
 # Wiring
 The below picture shows the completed wiring harness. It has three main parts:
 1. A harness between the car wiring harness and the mode switch.
