@@ -93,7 +93,9 @@ Assemble the connector such that the newly created harness will connect at one e
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/first-conn-complete.jpg" alt="Complete first part of the wiring" width="225" />
 
 ## Power
-The Arduino chip needs power to operate. 
+### Introduction
+The Arduino chip needs power to operate. This gets that power from the nearby accessory power socket in the center console under the arm rest. Similar to the TH08 connectors above, this creates a harness that plugs in between the car harness and the accessory power socket. It provides power while allowing the accessory power outlet to continue working as normal.
+
 
 ## All together
 
