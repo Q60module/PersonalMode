@@ -123,6 +123,22 @@ It's time to put this all together to complete the wiring harness. Use the GT150
 10. Black wire from the power harness
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/GT150.JPG" alt="GT150 diagram" width="225" />
 
+### Create Harness
+Here are two videos on assembeling the GT150 plugs:
+1. <a href="https://www.youtube.com/watch?v=5HqLudHUbbI">https://www.youtube.com/watch?v=5HqLudHUbbI</a>
+1. <a href="https://www.youtube.com/watch?v=7ucH7XyAD54">https://www.youtube.com/watch?v=7ucH7XyAD54</a>
+
+Directions:
+1. Strip the end of the black (ground) wire from the power wiring harness, attach a pin, and insert into the bottom-right (#10) spot in the connector.
+2. Strip the end of the red (positive) wire from the power wiring harness, attach a pin, and insert into the top-right (#5) spot in the connector.
+3. Strip the end of a wire connected to the rocker switch (it doesn't matter which of the two wires is used here), attach a pin, and insert into the #9 spot in the connector.
+4. Strip the end of the other wire connected to the rocker switch, attach a pin, and insert into the #4 spot in the connector.
+5. Strip the end of the black wire from the TH08 harness, attach a pin, and insert into the #8 spot in the connector.
+6. Strip the end of the Blue wire from the TH08 harness, attach a pin, and insert into the #3 spot in the connector.
+7. Use zip ties to stabilize the wires, then wrap with tape.
+The below image shows the complete wiring harness:
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/Harness.jpg" alt="Complete wiring harness" width="300" />
+
 # 3D Printed Box
 ## Box
 ## Assemble
