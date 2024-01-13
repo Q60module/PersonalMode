@@ -157,6 +157,17 @@ The Arduino takes care of most of the work in this project. The below picture sh
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/Inside-the-box.jpg" alt="Assembled CPU inside the box" width="300" />
 
 ## Assemble and program Arduino
+### Assemble the Arduino
+Put the various components together to program and test the CPU:
+1. Take the SAMD21 CPU, Grove Base, and Grove Relay out of their packages
+2. Carefully remove the "extra" section of the grove base - the additional 4 plugs are not needed.
+3. Insert the SAMD21 CPU into the Grove Base
+4. Using the wiring included in the Grove Relay, connect the relay to the Grove base. As shown in the image above, the wire must be plugged in to the top-left socket.
+
+### Program the Arduino
+Download the appropriate software, configure it, load the program on the Arduino, and test it.
+
+
 ## 3D Printed Box
 ## Assemble
 # Possible enhancements/updates
