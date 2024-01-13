@@ -149,6 +149,13 @@ The below image shows the complete wiring harness:
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/Harness.jpg" alt="Complete wiring harness" width="300" />
 
 # CPU
+The Arduino takes care of most of the work in this project. The below picture shows the completed assembled cpu with all the parts. The main components are:
+1. The SAMD21 cpu on the Grove Base.
+2. The Grove Relay
+3. A 12v - 5v DC/DC converter
+4. The GT150 Receptacle
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/Inside-the-box.jpg" alt="Assembled CPU inside the box" width="300" />
+
 ## Assemble and program Arduino
 ## 3D Printed Box
 ## Assemble
