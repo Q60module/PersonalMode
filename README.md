@@ -110,6 +110,18 @@ The below picture shows tbe completed power harness.
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/power.jpg" alt="Complete power wiring" width="225" />
 
 ## All together
+It's time to put this all together to complete the wiring harness. Use the GT150 plug kit, the rocker switch, and the wiring harnesses from above to create the complete wiring harness. See the below diagram, the pins on the connectors are:
+1. Blank
+2. Blank
+3. Blue wire from the TH08 wiring harness
+4. One of the wires to the rocker switch
+5. Red wire from the power harness
+6. Blank
+7. Blank
+8. Black wire from the TH08 wiring harness
+9. The other wire to the rocker switch
+10. Black wire from the power harness
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/GT150.JPG" alt="GT150 diagram" width="225" />
 
 # 3D Printed Box
 ## Box
