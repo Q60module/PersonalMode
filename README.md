@@ -181,3 +181,5 @@ Download the appropriate software, configure it, load the program on the Arduino
 1. The connection to the mode change switch has power, see if it is possible to use that instead of getting power from the accessory plug. Note that the power to the switch powers the LEDs. They vary in brightness with the other lights, so that will likely not work, depending on how they vary brightness (and if the lights can be turned completely off).
 2. Use the enable/disable auto start/stop switch to enable/disable the unit instead of using a rocker switch.
 3. In addition to changing into personal mode, also turn on driver assistance features and the cruise conntrol.
+
+©2024 by David Horton. This work is openly licensed via <a href="https://github.com/Q60module/PersonalMode/blob/main/LICENSE.txt">CC BY 4.0</a> 
