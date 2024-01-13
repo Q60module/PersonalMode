@@ -135,14 +135,15 @@ Directions:
 4. Strip the end of the other wire connected to the rocker switch, attach a pin, and insert into the #4 spot in the connector.
 5. Strip the end of the black wire from the TH08 harness, attach a pin, and insert into the #8 spot in the connector.
 6. Strip the end of the Blue wire from the TH08 harness, attach a pin, and insert into the #3 spot in the connector.
-7. Use zip ties to stabilize the wires, then wrap with tape.
+7. Attach the wire separator to the back of the connector.
+8. Use zip ties to stabilize the wires, then wrap with tape.
 The below image shows the complete wiring harness:
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/Harness.jpg" alt="Complete wiring harness" width="300" />
 
-# 3D Printed Box
-## Box
+# CPU
+## Assemble and program Arduino
+## 3D Printed Box
 ## Assemble
-### Program Arduino
 # Possible enhancements/updates
 1. The connection to the mode change switch has power, see if it is possible to use that instead of getting power from the accessory plug. Note that the power to the switch powers the LEDs. They vary in brightness with the other lights, so that will likely not work, depending on how they vary brightness (and if the lights can be turned completely off).
 2. Use the enable/disable auto start/stop switch to enable/disable the unit instead of using a rocker switch.
