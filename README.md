@@ -67,21 +67,30 @@ Watch both of these videos:
 1. <a href="https://www.youtube.com/watch?v=euZR3xzL7QE">How to assemble TH08FW-NH</a>
 1. <a href="https://www.youtube.com/watch?v=rjbkZIhDN3w">How to connect multiple wires</a>
 
+#### Aseemble the TH08FW Connector
 Create the harness shown below, with all five wires of the same length, with an additional wire connected to the #1 (black) and #3 (blue) wires:
-<td><img src="https://github.com/Q60module/PersonalMode/blob/main/images/first-conn-progress.jpg" alt="First part of the wiring" width="225" />
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/first-conn-progress.jpg" alt="First part of the wiring" width="225" />
     
 1. Cut approximately 5 inches of blue and black wire. The exact length doesn't matter, but the wires should be exactly the same length.
 1. Cut both wires approximately in half at the same spot.
 1. Cut an additional blue and black wire about 8 inches long. Again, the exact length doesn't matter as much but the wires should be exactly the same length.
 1. <a href="https://www.youtube.com/watch?v=rjbkZIhDN3w">Strip the ends and join the three</a> blue wires together. Be sure to use heat shrink tubing.
-1. <a href="https://www.youtube.com/watch?v=rjbkZIhDN3w">Strip the ends and join the three</a> black wires together. Be sure to use heat shrink tubing.
-2. Cut white, red, and black wires that are exactly the same length as the newly joined blue and black wires. The idea is to have five wires that will go between the TH08MW-NH and TH08FW-NH that are the same length, with the blue and one of the black wires having an additional wire connected to them. This is all shown in the picture above.
+1. Strip the ends and join the three black wires together. Be sure to use heat shrink tubing.
+2. Cut white, red, and black wires that are exactly the same length as the newly joined blue and black wires. The idea is to have five wires that will go between the TH08MW-NH and TH08FW-NH that are the same length, with the blue wire and one of the black wires having an additional wire connected to them. This is all shown in the picture above.
 3. Strip one end of the black wire that is spliced, <a href="https://www.youtube.com/watch?v=euZR3xzL7QE">attach a pin, and insert into the plug</a> in spot #1 per the diagram above.
 4. Strip one end of the white wire, attach a pin, and insert into the plug in spot #2.
 5. Strip one end of the blue wire that is spliced, attach a pin, and insert into the plug in spot #3.
 6. Strip one end of the red wire, attach a pin, and insert into the plug in spot #4.
 7. Strip one end of the other black wire, attach a pin, and insert into the plug in spot #5.
 8. It should now look just like the image above, with the wires in the correct spots per the diagram above.
+
+#### Assemble the TH08MW Connector
+Assemble the connector such that the newly created harness will connect at one end to the wiring harness in the car and the other end will plug in to the switch, and the wires are all connected straight through, so #1 is connected to #1, #2 is connected to #2 and so on. The only difference is that two of the wires have an additional wire connected to them.
+1. Attach a pin the other end of each of the five wires connnected to the TH08FW connector.
+2. Insert each pin into the connector in the corresponding position.
+3. Use zip ties to stabilize the wires.
+4. Use tape to wrap the wires.
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/first-conn-complete.jpg" alt="Complete first part of the wiring" width="225" />
 
 ## Power
 The Arduino chip needs power to operate. 
