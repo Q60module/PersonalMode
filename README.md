@@ -72,9 +72,16 @@ Create the harness shown below, with all five wires of the same length, with an 
     
 1. Cut approximately 5 inches of blue and black wire. The exact length doesn't matter, but the wires should be exactly the same length.
 1. Cut both wires approximately in half at the same spot.
-1. Cut an additional blue and black wire about 8 inches long. Again, the exact length doesn't matter as muchk but the wires should be exactly the same length.
+1. Cut an additional blue and black wire about 8 inches long. Again, the exact length doesn't matter as much but the wires should be exactly the same length.
 1. <a href="https://www.youtube.com/watch?v=rjbkZIhDN3w">Strip the ends and join the three</a> blue wires together. Be sure to use heat shrink tubing.
 1. <a href="https://www.youtube.com/watch?v=rjbkZIhDN3w">Strip the ends and join the three</a> black wires together. Be sure to use heat shrink tubing.
+2. Cut white, red, and black wires that are exactly the same length as the newly joined blue and black wires. The idea is to have five wires that will go between the TH08MW-NH and TH08FW-NH that are the same length, with the blue and one of the black wires having an additional wire connected to them. This is all shown in the picture above.
+3. Strip one end of the black wire that is spliced, <a href="https://www.youtube.com/watch?v=euZR3xzL7QE">attach a pin, and insert into the plug</a> in spot #1 per the diagram above.
+4. Strip one end of the white wire, attach a pin, and insert into the plug in spot #2.
+5. Strip one end of the blue wire that is spliced, attach a pin, and insert into the plug in spot #3.
+6. Strip one end of the red wire, attach a pin, and insert into the plug in spot #4.
+7. Strip one end of the other black wire, attach a pin, and insert into the plug in spot #5.
+8. It should now look just like the image above, with the wires in the correct spots per the diagram above.
 
 ## Power
 The Arduino chip needs power to operate. 
