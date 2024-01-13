@@ -166,7 +166,14 @@ Put the various components together to program and test the CPU:
 
 ### Program the Arduino
 Download the appropriate software, configure it, load the program on the Arduino, and test it.
-
+1. The below are selected directions from <a href="https://wiki.seeedstudio.com/Seeeduino-XIAO/">Getting Started</a>. See that page for screenshots.
+2. Download and install <a href="https://www.arduino.cc/en/software">Arduino IDE</a>
+3. Add the Seeed boards to Arduino IDE. Launch the IDE, go to File -> Preference, add this URL to the "Additional Boards Manager URLs":
+   3. https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
+4. Go to Tools -> Board -> Boards Manager..., enter "Seeed Studio XIAO SAMD21"and search.
+5. Install the appropriate Seeed SAMD Boards by Seeed Studio
+6. Go to Tools ->Board, find "Seeeduino XIAO" and select it.
+7. 
 
 ## 3D Printed Box
 ## Assemble
