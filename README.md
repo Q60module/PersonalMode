@@ -34,7 +34,9 @@ This uses a small Arduino chip and a relay to simulate pushing the "Change Mode"
 - [Lighter Plug with leads](https://www.amazon.com/dp/B0963QJLRG)
 
 ## Tools
-- A Windows or Apple computer to program the Arduino (not a phone or tablet)
+- A Windows or Apple computer to program the Arduino
+> [!WARNING]
+> A phone or tablet will likely **not** work.
 - Soldering Iron
 - Protective eyewear
 - Pliers
