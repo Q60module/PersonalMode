@@ -189,6 +189,13 @@ The code should look similar to the below screenshot:
     1. If the program was loaded successfully and you correctly connected  the Relay to the Grove Base, the relay should emit three audible tick-tocks after 20 seconds. 
 
 ## 3D Printed Box
+Get the project box printed on a 3D printer:
+1. Download the <a href="https://github.com/Q60module/PersonalMode/blob/main/3D-Box/project_box.stl">box definition</a>
+   2. You will likely need to click the "Download raw file" button
+3. Print the box
+> [!NOTE]  
+> The box design is available under a different license. See the <a href="https://github.com/Q60module/PersonalMode/blob/main/3D-Box/Readme.md">Readme</a> for details.
+
 ## Assemble
 # Possible enhancements/updates
 1. The connection to the mode change switch has power, see if it is possible to use that instead of getting power from the accessory plug. Note that the power to the switch powers the LEDs. They vary in brightness with the other lights, so that will likely not work, depending on how they vary brightness (and if the lights can be turned completely off).
