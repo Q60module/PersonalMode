@@ -73,11 +73,30 @@ The closing curly brace signifies the end of the loop.
   }
 ```
 
-### Low power mode
-Since we don't need the CPU to do anything else, this puts it in low-power mode and then ends the setup function.
+### Set up low power mode
+This code instructs the CPU that if it wakes up from low-power mode that it should call the wakeUp function and then ends the setup function.
 ```
   pinMode(SWITCH1, INPUT);
 
   LowPower.attachInterruptWakeup(SWITCH1, wakeUp, CHANGE);  //setup interrupt for wake up
+}
+```
+
+## Loop function
+In a typical Arduino program, the loop function is where most of the work happens. The CPU typically runs that function over and over to perform the main work. In this case, we did everything in the setup function, so there is nothing for the loop function to do.
+This just puts the CPU in low-power mode, which basically stops all processing.
+```
+void loop() {
+  LowPower.deepSleep();
+}
+```
+
+## WakeUp function
+Is seen in the setup function, if the CPU wakes up from low-power mode, it calls this function. This just puts the CPU back in low-power mode.
+```
+void wakeUp()
+{
+  //handler for the interrupt
+  LowPower.deepSleep();
 }
 ```
