@@ -177,9 +177,7 @@ Download the appropriate software, configure it, load the program on the Arduino
 8. Go to Tools ->Board, find "Seeeduino XIAO" and select it.
 9. Choose File -> New Sketch
 10. Select everything in the new file and delete it.
-11. Copy and paste the <a href="https://github.com/Q60module/PersonalMode/blob/main/code/car_mode.ino">code</a> into the sketch.
-> [!TIP]
-> Only include the contents of the file itself. Github displays it with header and other information. The file itself begins on line 1 with the copyright notice and ends on line 37 with a closing curly brace.
+11. Copy and paste the <a href="https://raw.githubusercontent.com/Q60module/PersonalMode/main/code/car_mode.ino">code</a> into the sketch.
 
 The code should look similar to the below screenshot:
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/Arduino-IDE.png" alt="IDE with code" width="300" />
