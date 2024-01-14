@@ -203,8 +203,8 @@ To finish up the wiring, connect wires from the GT150 Receptacle to the relay an
 2. Solder the red and black wires from the USB C male plug to bare wire to the "Output +" and "Output -" on the 12v-5v converter.
 
 That should look something like:
-<img src="https://github.com/Q60module/PersonalMode/blob/main/images/Power-supply.jpg" alt="Power Supply" width="300" />  
 
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/Power-supply.jpg" alt="Power Supply" width="300" />  
 > [!NOTE]  
 > As shown in the image, I split the wires coming from the GT150 receptacle using bullet connectors to make it easier to assemble. 
 
