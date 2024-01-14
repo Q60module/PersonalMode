@@ -33,19 +33,20 @@ void printSetup(){
 }
 ```
 ## Setup Function
-The `setup()` function (lines 15-27 runs when the CPU starts up. This function contains all the code that switches modes. For Arduino CPUs, the pins can be in various modes. The next line has to do with where the relay is connected to the Grove base. You can see in the below picture that the Grove base has four white plug receptacles. The relay is connected to the top-left receptacle using the black, red, white, and yellow wires. While is is a little hard to see which of the left receptacles the wire is plugged in to, you can see that the bottom one is empty and that it is plugged into the top one. The top one is #1.
-<img src="https://github.com/Q60module/PersonalMode/blob/main/images/Inside-the-box.jpg" alt="Assembled CPU inside the box" width="300" /> We need that pin #1 to be in output mode so we can provide power to the Relay to turn it on or off. This code puts pin #1 in the output mode.
+The `setup()` function (lines 15-27 runs when the CPU starts up. This function contains all the code that switches modes. For Arduino CPUs, the pins can be in various modes. The next line has to do with where the relay is connected to the Grove base. You can see in the below picture that the Grove base has four white plug receptacles. The relay is connected to the top-left receptacle using the black, red, white, and yellow wires. While is is a little hard to see which of the left receptacles the wire is plugged in to, you can see that the bottom one is empty and that it is plugged into the top one. The top one is #1. 
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/Inside-the-box.jpg" alt="Assembled CPU inside the box" width="300" />  
+We need that pin #1 to be in output mode so we can provide power to the Relay to turn it on or off. This code puts pin #1 in the output mode.
 ```
   pinMode(1, OUTPUT);
 ```
 
-Continuing in the setup function, I wanted to make sure that the device didn't try to switch modes before the car was ready. The way to take care of that is to tell the CPU to sleep (do nothing) for an amount of time. This code has the CPU do nothing for 20 seconds (20,000 milliseconds).
+Continuing in the `setup()` function, I wanted to make sure that the device didn't try to switch modes before the car was ready. The way to take care of that is to tell the CPU to sleep (do nothing) for an amount of time. This code has the CPU do nothing for 20 seconds (20,000 milliseconds).
 ```
   delay(20000);
 ```
 
 ### Loop
-In my Q60, after starting the car, I have to click the mode forward button three times to get to Personal mode. It starts in Normal, forward once moves to Sport mode, forward again goes to Sport+, and forard a third time moves to Personal mode. This means we need the CPU to do the same thing three times in a row, this loop does that.
+In my Q60, after starting the car, I have to click the mode forward button three times to get to Personal mode. It starts in Normal, moving the switch forward once moves to Sport mode, forward again goes to Sport+, and forard a third time moves to Personal mode. This means we need the CPU to do the same thing three times in a row, this loop does that.
 ```
   for (int i=0; i<3; i++) {
 ```
@@ -68,7 +69,7 @@ The closing curly brace signifies the end of the loop.
 ```
 
 ### Set up low power mode
-This code instructs the CPU that if it wakes up from low-power mode that it should call the wakeUp function and then ends the setup function.
+This code instructs the CPU that if it wakes up from low-power mode that it should call the `wakeUp()` function and then ends the setup function.
 ```
   pinMode(SWITCH1, INPUT);
 
@@ -77,7 +78,7 @@ This code instructs the CPU that if it wakes up from low-power mode that it shou
 ```
 
 ## Loop function
-In a typical Arduino program, the loop function is where most of the work happens. The CPU typically runs that function over and over to perform the main work. In this case, we did everything in the setup function, so there is nothing for the loop function to do.
+In a typical Arduino program, the `loop()` function is where most of the work happens. The CPU typically runs that function over and over to perform the main work. In this case, we did everything in the `setup()` function, so there is nothing for the `loop()` function to do.
 This just puts the CPU in low-power mode, which basically stops all processing.
 ```
 void loop() {
@@ -86,7 +87,7 @@ void loop() {
 ```
 
 ## WakeUp function
-Is seen in the setup function, if the CPU wakes up from low-power mode, it calls this function. This just puts the CPU back in low-power mode.
+Is seen in the `setup()` function, if the CPU wakes up from low-power mode, it calls this function. This just puts the CPU back in low-power mode.
 ```
 void wakeUp()
 {
