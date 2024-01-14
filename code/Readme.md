@@ -39,5 +39,45 @@ void printSetup(){
   Serial.flush();
 }
 ```
+## Setup Function
+The `setup()` function (lines 15-27 runs when the CPU starts up. This function contains all the code that switches modes. For Arduino CPUs, the pins can be in various modes. We need pin #1 to be in output mode so we can provide power to the Relay to turn it on or off. This code puts pin #1 in the output mode.
+```
+  pinMode(1, OUTPUT);
+```
 
-The `setup()` function (lines 15-27 runs when the CPU starts up. 
+Continuing in the setup function, I wanted to make sure that the device didn't try to switch modes before the car was ready. The way to take care of that is to tell the CPU to sleep (do nothing) for an amount of time. This code has the CPU do nothing for 20 seconds (20,000 milliseconds).
+```
+  delay(20000);
+```
+
+### Loop
+In my Q60, after starting the car, I have to click the mode forward button three times to get to Personal mode. It starts in Normal, forward once moves to Sport mode, forward again goes to Sport+, and forard a third time moves to Personal mode. This means we need the CPU to do the same thing three times in a row, this loop does that.
+```
+  for (int i=0; i<3; i++) {
+```
+
+Things inside a computer happen much faster than people are used to. If you consider the last time that you pushed the mode button forward in your car, how long was it forward before you released it? You probably think "immediately", but looking at it carefully, you likely had the button pushed forward for at least 1/10th of a second. This timing is important because if we just instructed the CPU to provide power to the Relay (which simulates pushing the button forward), and immediately had the CPU remove power from the Relay (which simulates releasing the button), that would likely happen in 1-2 hundredths of a second. Since the car's computers are programmed to expect people to push the button forard, it will likely not recognize it if the button is pressed for just 1-2 hundredths of a second. In addition to that, a humnan takes time in between button pushes. To take care of that the code does the following each of the three times through the loop:
+1. Provides power to the Relay (pushes the button forward)
+2. Waits for 200 milliseconds
+3. Removes power from the Relay (releases the button)
+4. Waits 700 milliseconds
+```
+    digitalWrite(1, HIGH);
+    delay(200);
+    digitalWrite(1, LOW);
+    delay(700);
+```
+
+The closing curly brace signifies the end of the loop.
+```
+  }
+```
+
+### Low power mode
+Since we don't need the CPU to do anything else, this puts it in low-power mode and then ends the setup function.
+```
+  pinMode(SWITCH1, INPUT);
+
+  LowPower.attachInterruptWakeup(SWITCH1, wakeUp, CHANGE);  //setup interrupt for wake up
+}
+```
