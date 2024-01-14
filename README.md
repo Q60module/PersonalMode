@@ -239,15 +239,15 @@ Steps:
 10. Test the wiring harness.
     1. Connect all wiring that you disconnected during the dis-assembly (leave the GT150 disconnected)
     2. Start the car
-   3. Make sure that the car mode switch works when pushing it forward and backwards
-   4. Make sure the LED on the Lighter Plug with leads lights up.
-   5. Stop the car.
+    3. Make sure that the car mode switch works when pushing it forward and backwards
+    4. Make sure the LED on the Lighter Plug with leads lights up.
+    5. Stop the car.
 12. Connect the GT150 on the new harness to the box.
 13. Verify it works.
-   1. Start the car.
-   2. Wait 20 seconds.
-   3. You should hear three audible tick-tocks and the mode should switch to Personal mode.
-   4. Turn the car off.
+    1. Start the car.
+    2. Wait 20 seconds.
+    3. You should hear three audible tick-tocks and the mode should switch to Personal mode.
+    4. Turn the car off.
 15. Re-assemble the car.
 
 > [!IMPORTANT]  
