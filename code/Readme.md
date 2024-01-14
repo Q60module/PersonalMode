@@ -20,7 +20,7 @@ This next line includes functions for putting the CPU into low power mode after 
 #include <ArduinoLowPower.h>
 ```
 
-The next line has to do with where the relay is connected to the Grove base. You can see in the below picture that the Grove base has four white plug receptacles. The relay is connected to the top-left receptacle using the black, red, white, and yellow wires. While is is a little hard to see which of the left receptacles the wire is plugged in to, you can see that the bottom one is empty and that it is plugged into the top one. The top one is A6.
+The next line has to do with where the relay is connected to the Grove base. You can see in the below picture that the Grove base has four white plug receptacles. The relay is connected to the top-left receptacle using the black, red, white, and yellow wires. While is is a little hard to see which of the left receptacles the wire is plugged in to, you can see that the bottom one is empty and that it is plugged into the top one. The top one is #1.
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/Inside-the-box.jpg" alt="Assembled CPU inside the box" width="300" />
 
 ```
