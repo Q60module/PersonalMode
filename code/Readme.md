@@ -24,11 +24,13 @@ The next line has to do with where the relay is connected to the Grove base. You
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/Inside-the-box.jpg" alt="Assembled CPU inside the box" width="300" />
 
 ```
-#define SWITCH1 A6  //switch pin, used to talk to the Relay
+
 ```
 
 Now we start getting to some actual code. This next section shouldn't be there - oops. It would setup the CPU to output info when connected to a computer and then print the message "Startring", but it isn't actually used. I'll remove this the next time I update the device.
 ```
+#define SWITCH1 A6  //switch pin, used to talk to the Relay
+
 void printSetup(){
   Serial.begin(115200);
   Serial.println();
@@ -37,3 +39,5 @@ void printSetup(){
   Serial.flush();
 }
 ```
+
+The `setup()` function (lines 15-27 runs when the CPU starts up. 
