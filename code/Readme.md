@@ -33,7 +33,7 @@ void printSetup(){
 }
 ```
 ## Setup Function
-The `setup()` function (lines 15-27 runs when the CPU starts up. This function contains all the code that switches modes. For Arduino CPUs, the pins can be in various modes. The next line has to do with where the relay is connected to the Grove base. You can see in the below picture that the Grove base has four white plug receptacles. The relay is connected to the top-left receptacle using the black, red, white, and yellow wires. While is is a little hard to see which of the left receptacles the wire is plugged in to, you can see that the bottom one is empty and that it is plugged into the top one. The top one is #1. 
+The `setup()` function (lines 15-27) runs when the CPU starts up. This function contains all the code that switches modes. For Arduino CPUs, the pins can be in various modes. The next line has to do with where the relay is connected to the Grove base. You can see in the below picture that the Grove base has four white plug receptacles. The relay is connected to the top-left receptacle using the black, red, white, and yellow wires. While is is a little hard to see which of the left receptacles the wire is plugged in to, you can see that the bottom one is empty and that it is plugged into the top one. The top one is #1. 
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/Inside-the-box.jpg" alt="Assembled CPU inside the box" width="300" />  
 We need that pin #1 to be in output mode so we can provide power to the Relay to turn it on or off. This code puts pin #1 in the output mode.
 ```
