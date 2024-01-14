@@ -196,7 +196,7 @@ Get the project box printed on a 3D printer:
    1. You will likely need to click the "Download raw file" button
 1. Print the box
 > [!NOTE]  
-> The box design is available under a different license. See the <a href="https://github.com/Q60module/PersonalMode/blob/main/3D-Box/Readme.md">Readme</a> for details.
+> The box design is available under a different license than these directions, the code, and images. See the <a href="https://github.com/Q60module/PersonalMode/blob/main/3D-Box/Readme.md">Readme</a> for details.
 
 ## Assemble
 To finish up the wiring, connect wires from the GT150 Receptacle to the relay and power supply. Also connect the power supply to the SAMD21. To do that:
