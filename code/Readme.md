@@ -69,7 +69,7 @@ The closing curly brace signifies the end of the loop.
 ```
 
 ### Set up low power mode
-This code instructs the CPU that if it wakes up from low-power mode that it should call the `wakeUp()` function and then ends the setup function.
+This code instructs the CPU that if it wakes up from low-power mode that it should call the `wakeUp()` function. The closing curly brace signifies the end of the `setup()` function.
 ```
   pinMode(SWITCH1, INPUT);
 
