@@ -208,6 +208,18 @@ That should look something like:
 > [!NOTE]  
 > As shown in the image, I split the wires coming from the GT150 receptacle using bullet connectors to make it easier to assemble. 
 
+1. Take a short yellow wire, strip both ends, attach terminals to both, and plug it into #10 and #4 on the GT150 Receptacle directly connecting the two pins.
+3. Connect the red wire from the 12v-5v converter input to #5 on the GT150 Receptacle.
+4. Connect the black wire from the 12v-5v converter input to #4 on the GT150 Receptacle.
+5. Loosen the two screws in the green plastic on the Relay. Use blue and green wires to connect pins #3 and #8 on the GT150 Receptacle to the two slots in the green plastic, tighten the screws in the relay.
+6. Connect the USB cable from the 12v-5v converter to the USB on the SAMD21.
+7. Find a screw with a head that just fits in the slot on the bottom of the GT150 receptacle. Screw that in to the middle of the large rectangular block on the floor of the box.
+8. Attach the GT150 receptacle, relay, 12v-5v converter, and Grove Base to the box as shown below:
+
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/Inside-the-box.jpg" alt="Assembled CPU inside the box" width="300" />  
+
+10. Attach the lid to the box using 4 M2.6x10 screws.
+
 ### Assembly
 # Possible enhancements/updates
 1. The connection to the mode change switch has power, see if it is possible to use that instead of getting power from the accessory plug. Note that the power to the switch powers the LEDs. They vary in brightness with the other lights, so that will likely not work, depending on how they vary brightness (and if the lights can be turned completely off).
