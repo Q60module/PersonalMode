@@ -181,6 +181,7 @@ Download the appropriate software, configure it, load the program on the Arduino
 11. Copy and paste the <a href="https://raw.githubusercontent.com/Q60module/PersonalMode/main/code/car_mode.ino">code</a> into the sketch.
 
 The code should look similar to the below screenshot:
+
 <img src="https://github.com/Q60module/PersonalMode/blob/main/images/Arduino-IDE.png" alt="IDE with code" width="300" />
 
 11. Save the sketch.
