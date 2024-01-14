@@ -237,8 +237,8 @@ Steps:
 8. Connect the TH08FW on the new harness to the mode select switch.
 9. Make sure the rocker switch is turned On.
 10. Test the wiring harness.
-   1. Connect all wiring that you disconnected during the dis-assembly (leave the GT150 disconnected)
-   2. Start the car
+    1. Connect all wiring that you disconnected during the dis-assembly (leave the GT150 disconnected)
+    2. Start the car
    3. Make sure that the car mode switch works when pushing it forward and backwards
    4. Make sure the LED on the Lighter Plug with leads lights up.
    5. Stop the car.
