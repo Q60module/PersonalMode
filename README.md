@@ -76,8 +76,9 @@ Watch both of these videos:
 1. <a href="https://www.youtube.com/watch?v=rjbkZIhDN3w">How to connect multiple wires</a>
 
 #### Aseemble the TH08FW Connector
-Create the harness shown below, with all five wires of the same length, with an additional wire connected to the #1 (black) and #3 (blue) wires:
-<img src="https://github.com/Q60module/PersonalMode/blob/main/images/first-conn-progress.jpg" alt="First part of the wiring" width="225" />
+Create the harness shown below, with all five wires of the same length, with an additional wire connected to the #1 (black) and #3 (blue) wires: 
+
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/first-conn-progress.jpg" alt="First part of the wiring" width="225" /> 
     
 1. Cut approximately 5 inches of blue and black wire. The exact length doesn't matter, but the wires should be exactly the same length.
 1. Cut both wires approximately in half at the same spot.
