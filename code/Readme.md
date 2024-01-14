@@ -1,6 +1,6 @@
 # Overview
 The code in the <a href="https://raw.githubusercontent.com/Q60module/PersonalMode/main/code/car_mode.ino">ca_mode.ino</a> has the Arduino CPU do the following:
-1. Sleep (do nothing) for 20 seconds to give the car time to get settled (this might not be needed).
+1. Sleep (do nothing) for 20 seconds to give the car time to get settled
 2. Close the relay for 200 milliseconds and then open it again - this simulates pushing the mode button forward and then releasing it
 3. Sleep (do nothing) for 700 milliseconds to pause between pushing the button
 4. Perform steps 2 and 3 twice more
