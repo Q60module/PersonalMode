@@ -190,7 +190,7 @@ The code should look similar to the below screenshot:
 
 ## 3D Printed Box
 Get the project box printed on a 3D printer:
-1. Download the <a href="https://github.com/Q60module/PersonalMode/blob/main/3D-Box/project_box.stl">box definition</a>
+1. Download the <a href="https://github.com/Q60module/PersonalMode/blob/main/3D-Box/project_box.stl">box definition</a> 
    2. You will likely need to click the "Download raw file" button
 3. Print the box
 > [!NOTE]  
