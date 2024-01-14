@@ -172,8 +172,20 @@ Download the appropriate software, configure it, load the program on the Arduino
    3. https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
 4. Go to Tools -> Board -> Boards Manager..., enter "Seeed Studio XIAO SAMD21"and search.
 5. Install the appropriate Seeed SAMD Boards by Seeed Studio
-6. Go to Tools ->Board, find "Seeeduino XIAO" and select it.
-7. 
+6. Connect the SAMD6 to the computer via USB.
+    7. The power light should turn on.
+8. Go to Tools ->Board, find "Seeeduino XIAO" and select it.
+9. Choose File -> New Sketch
+10. Select everything in the new file and delete it.
+11. Copy and paste the <a href="https://github.com/Q60module/PersonalMode/blob/main/code/car_mode.ino">code</a> into the sketch.
+> [!TIP]
+> Only include the contents of the file itself. Github displays it with header and other information. The file itself begins on line 1 with the copyright notice and ends on line 37 with a closing curly brace.
+
+11. Save the sketch.
+12. Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (COM1 and COM2 are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
+13. Upload the program. Simply click the "Upload" on the toolbar (looks like a right arrow). Wait a few seconds and if successful, the message "Done Uploading" will appear im the status bar.
+14.  Wait 5-10 seconds, then disconnect the SAMD21 from the computer. Wait a couple of seconds and connect it again.
+    15. If the program was loaded successfully and you correctly connected  the Relay to the Grove Base, the relay should emit three audible tick-tocks after 20 seconds. 
 
 ## 3D Printed Box
 ## Assemble
