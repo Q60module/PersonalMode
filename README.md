@@ -188,7 +188,7 @@ The code should look similar to the below screenshot:
 12. Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (COM1 and COM2 are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 13. Upload the program. Simply click the "Upload" on the toolbar (looks like a right arrow). Wait a few seconds and if successful, the message "Done Uploading" will appear im the status bar.
 14.  Wait 5-10 seconds, then disconnect the SAMD21 from the computer. Wait a couple of seconds and connect it again.
-    15. If the program was loaded successfully and you correctly connected  the Relay to the Grove Base, the relay should emit three audible tick-tocks after 20 seconds. 
+   1. If the program was loaded successfully and you correctly connected  the Relay to the Grove Base, the relay should emit three audible tick-tocks after 20 seconds. 
 
 ## 3D Printed Box
 ## Assemble
