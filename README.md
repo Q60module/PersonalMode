@@ -1,5 +1,5 @@
 # Overview
-Directions to create a module that will switch to personal mode when you start an Infinit Q60.
+Here are directions to create a module that will switch to personal mode when you start an Infinit Q60.
 This should work for model years 2017-2022. This should also work for similar Q50 vehicles, as long as the same mode switch is used.
 
 This uses a small Arduino chip and a relay to simulate pushing the "Change Mode" button several times. Great care is taken to make a plug and play solution. There is no need to cut any wires in the car, and it can be completely removed, returning the car to stock.
@@ -236,12 +236,25 @@ Steps:
 7. Connect the TH08MW on the new harness to the TH08FW that you disconnected from the mode select switch.
 8. Connect the TH08FW on the new harness to the mode select switch.
 9. Make sure the rocker switch is turned On.
-10. Re-assemble the car.
+10. Test the wiring harness.
+   1. Connect all wiring that you disconnected during the dis-assembly (leave the GT150 disconnected)
+   2. Start the car
+   3. Make sure that the car mode switch works when pushing it forward and backwards
+   4. Make sure the LED on the Lighter Plug with leads lights up.
+   5. Stop the car.
+12. Connect the GT150 on the new harness to the box.
+13. Verify it works.
+   1. Start the car.
+   2. Wait 20 seconds.
+   3. You should hear three audible tick-tocks and the mode should switch to Personal mode.
+   4. Turn the car off.
+15. Re-assemble the car.
 
 > [!IMPORTANT]  
 > When you start the car, it should switch to personal mode approximately 20 seconds after starting. For me, this even works when remote starting the car.
 
-TODO: add explanation of the code.
+# Explanation of the code
+The code itself is explained over in the <a href="https://github.com/Q60module/PersonalMode/tree/main/code">code readme</a> 
 
 # Possible enhancements/updates
 1. The connection to the mode change switch has power, see if it is possible to use that instead of getting power from the accessory plug. Note that the power to the switch powers the LEDs. They vary in brightness with the other lights, so that will likely not work, depending on how they vary brightness (and if the lights can be turned completely off).
