@@ -197,6 +197,17 @@ Get the project box printed on a 3D printer:
 > The box design is available under a different license. See the <a href="https://github.com/Q60module/PersonalMode/blob/main/3D-Box/Readme.md">Readme</a> for details.
 
 ## Assemble
+### Wiring
+To finish up the wiring, connect wires from the GT150 Receptacle to the relay and power supply. Also connect the power supply to the SAMD21. To do that:
+1. Solder red and black wires to the "Input +" and "Input -" on the 12v-5v converter.
+2. Solder the red and black wires from the USB C male plug to bare wire to the "Output +" and "Output -" on the 12v-5v converter.
+That should look something like:
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/Power-supply.png" alt="Power Supply" width="300" />  
+
+> [!NOTE]  
+> As shown in the image, I split the wires coming from the GT150 receptacle using bullet connectors to make it easier to assemble. 
+
+### Assembly
 # Possible enhancements/updates
 1. The connection to the mode change switch has power, see if it is possible to use that instead of getting power from the accessory plug. Note that the power to the switch powers the LEDs. They vary in brightness with the other lights, so that will likely not work, depending on how they vary brightness (and if the lights can be turned completely off).
 2. Use the enable/disable auto start/stop switch to enable/disable the unit instead of using a rocker switch.
