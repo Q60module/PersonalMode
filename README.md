@@ -197,7 +197,6 @@ Get the project box printed on a 3D printer:
 > The box design is available under a different license. See the <a href="https://github.com/Q60module/PersonalMode/blob/main/3D-Box/Readme.md">Readme</a> for details.
 
 ## Assemble
-### Wiring
 To finish up the wiring, connect wires from the GT150 Receptacle to the relay and power supply. Also connect the power supply to the SAMD21. To do that:
 1. Solder red and black wires to the "Input +" and "Input -" on the 12v-5v converter.
 2. Solder the red and black wires from the USB C male plug to bare wire to the "Output +" and "Output -" on the 12v-5v converter.
@@ -221,7 +220,29 @@ That should look something like:
 
 10. Attach the lid to the box using 4 M2.6x10 screws.
 
-### Assembly
+# Installation
+Basically, remove the trim piece / center console piece with the gearshift in it, place the box in there, and plug in the various wiring harnesses.
+Steps:
+1. Remove the trim piece / center console peice containing the gearshift following the first 3:45 in <a href="https://www.youtube.com/watch?v=zX6RrhB0sOw">this video</a>.
+
+> [!TIP]
+> That video is slightly different than my car, your mileage may vary. Some differences with my car and notes:
+> My car has an additional plug to remove around 0:38. It is much easier to use a small pair of pliers to remove the piece around 1:20. My car didn't have the screws starting around 1:54 (it does have the two starting around 2:19). Starting around 2:38, the remaining pieces come out as one piece for me. Removal ends around 3:45.
+
+3. Place the box near the rear of the compartment with the GT150 plug facing forward.
+4. Disconnect the plug going in to the Accessory power socket under the armrest.
+5. Connect the plug from the prior step to the Accessory power socket in the new wiring harness.
+6. Connect the new wiring harness to the Accessory power socket plug under the armrest.
+7. Connect the TH08MW on the new harness to the TH08FW that you disconnected from the mode select switch.
+8. Connect the TH08FW on the new harness to the mode select switch.
+9. Make sure the rocker switch is turned On.
+10. Re-assemble the car.
+
+> [!IMPORTANT]  
+> When you start the car, it should switch to personal mode approximately 20 seconds after starting. For me, this even works when remote starting the car.
+
+TODO: add explanation of the code.
+
 # Possible enhancements/updates
 1. The connection to the mode change switch has power, see if it is possible to use that instead of getting power from the accessory plug. Note that the power to the switch powers the LEDs. They vary in brightness with the other lights, so that will likely not work, depending on how they vary brightness (and if the lights can be turned completely off).
 2. Use the enable/disable auto start/stop switch to enable/disable the unit instead of using a rocker switch.
