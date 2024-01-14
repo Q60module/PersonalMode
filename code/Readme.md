@@ -26,3 +26,14 @@ The next line has to do with where the relay is connected to the Grove base. You
 ```
 #define SWITCH1 A6  //switch pin, used to talk to the Relay
 ```
+
+Now we start getting to some actual code. This next section shouldn't be there - oops. It would setup the CPU to output info when connected to a computer and then print the message "Startring", but it isn't actually used. I'll remove this the next time I update the device.
+```
+void printSetup(){
+  Serial.begin(115200);
+  Serial.println();
+  Serial.println(F("Starting"));
+  Serial.println();
+  Serial.flush();
+}
+```
