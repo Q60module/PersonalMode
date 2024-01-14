@@ -46,7 +46,7 @@ Continuing in the `setup()` function, I wanted to make sure that the device didn
 ```
 
 ### Loop
-In my Q60, after starting the car, I have to click the mode forward button three times to get to Personal mode. It starts in Normal, moving the switch forward once moves to Sport mode, forward again goes to Sport+, and forard a third time moves to Personal mode. This means we need the CPU to do the same thing three times in a row, this loop does that.
+In my Q60, after starting the car, I have to click the mode forward button three times to get to Personal mode. It starts in Normal, moving the switch forward once moves to Sport mode, forward again goes to Sport+, and forard a third time moves to Personal mode. This means we need the CPU to do the same thing three times in a row, this code loops through the below code three times.
 ```
   for (int i=0; i<3; i++) {
 ```
