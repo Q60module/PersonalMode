@@ -181,6 +181,8 @@ Download the appropriate software, configure it, load the program on the Arduino
 > [!TIP]
 > Only include the contents of the file itself. Github displays it with header and other information. The file itself begins on line 1 with the copyright notice and ends on line 37 with a closing curly brace.
 
+The code should look similar to the below screenshot:
+<img src="https://github.com/Q60module/PersonalMode/blob/main/images/Arduino-IDE.png" alt="IDE with code" width="300" />
 11. Save the sketch.
 12. Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (COM1 and COM2 are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 13. Upload the program. Simply click the "Upload" on the toolbar (looks like a right arrow). Wait a few seconds and if successful, the message "Done Uploading" will appear im the status bar.
